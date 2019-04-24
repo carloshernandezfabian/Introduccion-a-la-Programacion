@@ -19,23 +19,20 @@ public class Ejercicio1 {
             }
 
             System.out.println("Los valores del arreglo son:");
-            
+
             for (int indice = 0; indice < arregloNumeros.length; indice++)
                 System.out.println("Valor del arreglo 'arregloNumeros' en la posición [" + indice + "] : "
-                        + arregloNumeros[indice]);{
-                        	
-                            int sumaArreglo = 0;
-                            for (final int arregloNumero : arregloNumero)
-                            	sumaArreglo += sumaArreglo;
-                                    
-                                    System.out.println("El resultado de la suma de los valores del arreglo es: ");
-                                    System.out.println(sumaArreglo);
-                        	
-                        }
-        
+                        + arregloNumeros[indice]);
+
+            int sumaArreglo = 0;
+            for (final int numero : arregloNumeros)
+                sumaArreglo += numero;
+
+            System.out.println("El resultado de la suma de los valores del arreglo es: ");
+            System.out.println(sumaArreglo);
 
         }
-        
+
     }
 
 }
