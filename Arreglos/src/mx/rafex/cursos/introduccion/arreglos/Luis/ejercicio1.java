@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class EjercicioUno {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
         try (final Scanner entrada = new Scanner(System.in)) {
 
