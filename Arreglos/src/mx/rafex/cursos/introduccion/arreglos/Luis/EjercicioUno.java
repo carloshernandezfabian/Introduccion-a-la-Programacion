@@ -1,14 +1,10 @@
-
 package mx.rafex.cursos.introduccion.arreglos.Luis;
 
 import java.util.Scanner;
 
-/**
- * @author rafex
- */
 public class EjercicioUno {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
         try (final Scanner entrada = new Scanner(System.in)) {
 
@@ -26,25 +22,19 @@ public class EjercicioUno {
             for (int indice = 0; indice < arregloNumeros.length; indice++)
                 System.out.println("Valor del arreglo 'arregloNumeros' en la posición [" + indice + "] : "
                         + arregloNumeros[indice]);
-            
-            int numero = arregloNumeros; 
-            
-            while(arregloNumeros <= numero){
-                
-                if(arregloNumeros + numero){
-                     
-                
-             
-          
-          System.out.println ("El resultado de la suma es : " + numero);
-          
-                }
-                
+
+            int sumaTotal = 0;
+            int indice = 0;
+            while (indice < arregloNumeros.length) {
+                sumaTotal = sumaTotal + arregloNumeros[indice];
+                indice++;
             }
-    }
-}
-            
+
+            System.out.println("La suma total es: " + sumaTotal);
+
+        } catch (final Exception e) {
+
+        }
 
     }
-
 }
