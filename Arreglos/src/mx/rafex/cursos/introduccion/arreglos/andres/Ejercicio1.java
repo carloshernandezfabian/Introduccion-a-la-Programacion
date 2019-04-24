@@ -8,7 +8,10 @@ public class Ejercicio1 {
 			arregloNumeros[1] = 2;
 			arregloNumeros[2] = 3;
 			arregloNumeros[3] = 4;
-		System.out.println(arregloNumeros()	
-			for (i = 0; )
-}
+	
+			System.out.println(arregloNumeros.lenght);
+			 for (int x = 0; x < arregloNumeros.length; x++) {
+			 System.out.println("los numeros dentro son: " + x);
+			 }
+	}
 }
