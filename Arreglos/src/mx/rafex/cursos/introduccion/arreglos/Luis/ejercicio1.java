@@ -27,16 +27,14 @@ public class EjercicioUno {
                 System.out.println("Valor del arreglo 'arregloNumeros' en la posición [" + indice + "] : "
                         + arregloNumeros[indice]);
             
-            int numero = arregloNumeros; 
+            int numero1 = 0; 
             
-            while(arregloNumeros <= numero){
-                
-                if(arregloNumeros + numero){
+           int numero2 = 0;
                      
                 
              
           
-          System.out.println ("El resultado de la suma es : " + numero);
+          System.out.println ("El resultado de la suma es : " + numero1 + numero2);
           
                 }
                 
