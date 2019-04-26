@@ -8,15 +8,12 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
 
-/**
- * @author rafex
- *
- */
+
 public class LeerUnArchivoJava8 {
 
     public static void main(String[] args) {
 
-        final String ubicacionExactaDelArchivo = "/Volumes/@rafex_hdd/job/clientes/cursos/Introduccion-a-la-Programacion/Archivos/src/mx/rafex/cursos/introduccion/archivos/";
+        final String ubicacionExactaDelArchivo = "C:\\Users\\KMMX_PC1804\\git\\Introduccion-a-la-Programacion\\Archivos\\src\\mx\\rafex\\cursos\\introduccion\\archivos\\";
         final String nombreDelArchivo = "archivoPruebaEntrada.txt";
         final String rutaMasNombreDeArchivo = ubicacionExactaDelArchivo + nombreDelArchivo;
 
